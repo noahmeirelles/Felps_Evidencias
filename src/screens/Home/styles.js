@@ -6,12 +6,31 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  button: {
-    marginTop: 20,
-    padding: 10,
-    backgroundColor: "#C9D4FF",
-    borderRadius: 5,
-  },
+square:{
+  justifyContent: "center",
+  alignItems: "center",
+  width: 900,
+  height: "auto",
+  backgroundColor: "gray",
+  borderRadius: 10,
+  padding: 25,
+  marginTop: 40
+},
+title:{
+  fontSize: 24,
+  fontWeight: "bold",
+  marginBottom: 35,
+},
+text:{
+  color: "white",
+  fontWeight: "bold",
+  fontSize: 16,
+},
+clim:{
+  height: 40,
+  width: 200,
+ 
+}
  
 });
 

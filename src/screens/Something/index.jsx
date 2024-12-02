@@ -9,7 +9,7 @@ export default function Profile({ route }) {
 
   return (
     <View style={styles.container}>
-      <Text>pao2</Text>
+      <Text>Lista de classificação no campeonato brasileiro de boulder</Text>
     </View>
   );
 }
