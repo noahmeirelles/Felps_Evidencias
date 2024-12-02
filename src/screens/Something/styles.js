@@ -3,24 +3,29 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
     alignItems: "center",
+    padding: 95,
   },
-  button: {
-    marginTop: 20,
-    padding: 10,
-    backgroundColor: "#C9D4FF",
-    borderRadius: 5,
-  },
-  user: {
-    marginTop: 20,
-    padding: 10,
-    backgroundColor: "#C9D4FF",
-    borderRadius: 5,
-  },
+
   text: {
-    fontSize: 16,
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom:3
   },
+  text2:{
+    fontSize: 20,
+    display: "inline-block",
+  },
+  bottomline:{
+    backgroundColor: "black",
+    width: 900,
+    height:3,
+    borderRadius: 10,
+  },
+  all:{
+    marginTop: 24,
+    gap: 5
+  }
 });
 
 export default styles;
